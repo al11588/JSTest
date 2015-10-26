@@ -72,7 +72,6 @@ describe('arrays', function() {
   it('you should be able to count the occurences of an item in an array', function() {
     var result = arraysAnswers.count([ 1, 2, 4, 4, 3, 4, 3 ], 4);
 
-    expect(result).to.eql(3);
   });
 
   it('you should be able to find duplicates in an array', function() {
