@@ -27,9 +27,7 @@ describe('arrays', function() {
   });
 
   it('you should be able to remove all instances of a value from an array, returning the original array', function() {
-    //a.splice( 1, 0, 2 );
     a.push( 2 );
-    //a.push( 2 );
 
     var result = arraysAnswers.removeWithoutCopy(a, 2);
 
